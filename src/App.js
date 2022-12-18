@@ -1,24 +1,25 @@
-import logo from './logo.svg';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
+import Form from './InstaClone/Form';
+import LandingPage from './InstaClone//Landingpage/LandingPage';
+import Navber from './InstaClone/Navber';
+import Postview from './InstaClone/Postview';
+import Sidebar from './InstaClone/Sidebar';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+     <BrowserRouter>
+        <Routes>
+          <Route path='/postview' element={ <Postview /> }>
+
+          </Route>
+          <Route path='/' element={ <LandingPage /> }>
+
+          </Route>
+        </Routes>
+      </BrowserRouter>
+    </>
   );
 }
 

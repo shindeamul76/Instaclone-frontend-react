@@ -1,0 +1,46 @@
+main {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+main .img {
+    height: 100%;
+    width: 50%;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+.name-landing {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    text-align: center;
+}
+
+button {
+    font-size: larger;
+    font-weight: 600;
+    padding: 10px 20px;
+    border: 1px solid green;
+    color: green;
+    border-radius: 10px;
+    background-color: white;
+}
+
+button:hover {
+    background-color: green;
+    color: whitesmoke;
+}
+
+h1 {
+    font-size: xxx-large;
+    color: green;
+    font-weight: 400;
+}

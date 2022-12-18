@@ -1,0 +1,94 @@
+body {
+    background-color: aliceblue;
+  }
+  
+  header {
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+  
+  }
+
+  .App {
+    background-color: rgb(170, 167, 167);
+  }
+  
+  .logo {
+    margin: 20px;
+    float: left;
+  }
+  
+  .camera {
+    float: right;
+    margin: 30px;
+    margin-left: auto;
+  }
+  
+  .like,
+  .send {
+    width: 20px;
+    height: 20px;
+  }
+  
+  img {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .card {
+    margin: 20px 30%;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px gray;
+  }
+  
+  .img {
+    height: 300px;
+  }
+  
+  .head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+  }
+  
+  .text-light {
+    opacity: 0.5;
+    font-weight: 600;
+  }
+  
+  .options {
+    font-size: larger;
+    font-weight: 700;
+  }
+  
+  .head>div {
+    margin: 10px;
+  }
+  
+  .icons {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .icons>div {
+    margin: 10px;
+  }
+  
+  .likes {
+    font-size: small;
+    font-weight: 500;
+    opacity: 0.7;
+    margin: 10px;
+  }
+  
+  .icons>.date {
+    margin-left: auto;
+  }
+  
+  .description {
+    margin: 10px;
+    margin-bottom: 30px;
+  }
